@@ -1,4 +1,4 @@
-package com.companyname.ofbizdemo.services;
+package com.hotwaxsystem.ofbizdemo.services;
 import java.util.Map;
 
 import org.apache.ofbiz.base.util.Debug;
