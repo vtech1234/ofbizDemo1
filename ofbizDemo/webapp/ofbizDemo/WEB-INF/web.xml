@@ -27,6 +27,10 @@ under the License.
         <param-value>ofbizDemoSite</param-value>
         <description>A unique ID used to look up the WebSite entity. Only for component using a WebSite entity, like ecommerce</description>
     </context-param-->
+    <init-param>
+        <param-name>allowedPaths</param-name>
+        <param-value>/error:/control:/select:/index.html:/index.jsp:/default.html:/default.jsp:/images:/includes/maincss.css:/css:/js</param-value>
+    </init-param>
     <context-param>
         <description>A unique name used to identify/recognize the local dispatcher for the Service Engine</description>
         <param-name>localDispatcherName</param-name><param-value>ofbizDemo</param-value>
@@ -45,6 +49,7 @@ under the License.
         <param-name>compressHTML</param-name>
         <param-value>false</param-value>
     </context-param>
+
 
     <filter>
         <display-name>ControlFilter</display-name>
