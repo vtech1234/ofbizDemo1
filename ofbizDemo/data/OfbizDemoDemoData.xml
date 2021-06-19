@@ -22,4 +22,8 @@ under the License.
     <OfbizDemo ofbizDemoId="CHIRANJIV_1" ofbizDemoTypeId="INTERNAL" firstName="Chiranjiv" lastName="surname" comments="Java developer"/>
     <OfbizDemo ofbizDemoId="DEEPAK_2" ofbizDemoTypeId="INTERNAL" firstName="Deepak" lastName="Sharma" comments="Java developer"/>
     <OfbizDemo ofbizDemoId="YASH_1" ofbizDemoTypeId="EXTERNAL" firstName="Yash" lastName="Jinvani" comments="Java developer"/>
+
+<OfbizDemoNew ofbizDemoNewId="CHIRANJIV_1" ofbizDemoTypeId="INTERNAL" firstName="Chiranjiv" lastName="surname" DOB="08/10/1999" Phone="8461983671" comments="Java developer"/>
+<OfbizDemoNew ofbizDemoNewId="DEEPAK_2" ofbizDemoTypeId="INTERNAL" firstName="Deepak" lastName="Sharma" DOB="08/10/1999" Phone="8461983671" comments="Java developer"/>
+<OfbizDemoNew ofbizDemoNewId="YASH_1" ofbizDemoTypeId="EXTERNAL" firstName="Yash" lastName="Jinvani" DOB="08/10/1999" Phone="8461983671" comments="Java developer"/>
 </entity-engine-xml>

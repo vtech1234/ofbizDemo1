@@ -44,5 +44,20 @@ under the License.
             <key-map field-name="ofbizDemoTypeId"/>
         </relation>
     </entity>
+    <entity entity-name="OfbizDemoNew" pachage-name="org.apache.ofbiz.ofbizdemo" title="OfbizDemo New  Entity">
+        <field name="ofbizDemoNewId" type="id"><description>primary sequenced ID</description></field>
+        <field name="ofbizDemoTypeId" type="id"></field>
+        <field name="firstname" type="name" ></field>
+        <field name="lastname" type="name" ></field>
+        <field name="DOB" type="name" ></field>
+        <field name="Phone" type="name" ></field>
+
+        <field name="comments" type="comment"></field>
+        <prim-key field="ofbizDemoNewId"/>
+        <relation type="one" fk-name="ODEM_OD_TYPE_ID" rel-entity-name="OfbizDemoType">
+            <key-map field-name="ofbizDemoTypeId"/>
+        </relation>
+    </entity>
+
 
 </entitymodel>
