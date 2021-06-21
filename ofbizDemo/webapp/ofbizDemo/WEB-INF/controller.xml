@@ -45,6 +45,13 @@ under the License.
         <event type="service" invoke="createOfbizDemo"/>
         <response name="success" type="view" value="main"/>
     </request-map>
+
+    <request-map uri="AddOfbizNewDemo">
+
+        <security https="true" auth="true"/>
+        <response name="success" type="view" value="AddOfbizNewDemo"/>
+    </request-map>
+
     <request-map uri="FindOfbizDemo">
         <security https="true" auth="true"/>
         <response name="success" type="view" value="FindOfbizDemo"/>

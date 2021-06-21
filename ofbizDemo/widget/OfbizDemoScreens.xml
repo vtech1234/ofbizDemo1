@@ -37,6 +37,23 @@ under the License.
             </widgets>
         </section>
     </screen>
+
+    <screen name="newMain">
+        <section>
+            <actions>
+                <set field="headerItem" value="newMain"/><!-- this highlights the selected menu-item with name "main" -->
+            </actions>
+            <widgets>
+                <decorator-screen name="OfbizDemoCommonDecorator" location="${parameters.mainDecoratorLocation}">
+                    <decorator-section name="body">
+                        <screenlet title="Add OFBiz New Demo">
+                            <include-form name="AddOfbizNewDemo" location="component://ofbizDemo/widget/OfbizDemoForms.xml"/>
+                        </screenlet>
+                    </decorator-section>
+                </decorator-screen>
+            </widgets>
+        </section>
+    </screen>
     <!-- Find and list all ofbizdemos in a tabular format -->
     <screen name="FindOfbizDemo">
         <section>
