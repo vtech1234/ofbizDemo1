@@ -56,6 +56,13 @@ under the License.
         <security https="true" auth="true"/>
         <response name="success" type="view" value="FindOfbizDemo"/>
     </request-map>
+
+    <request-map uri="FindOfbizNewDemo">
+
+        <security https="true" auth="true"/>
+        <response name="success" type="view" value="FindOfbizNewDemo"/>
+    </request-map>
+
     <request-map uri="createOfbizDemo">
         <security https="true" auth="true"/>
         <event type="service" invoke="createOfbizDemoByJavaService"/>
@@ -81,5 +88,6 @@ under the License.
     <!-- View Mappings -->
     <view-map name="main" type="screen" page="component://ofbizDemo/widget/OfbizDemoScreens.xml#main"/>
     <view-map name="FindOfbizDemo" type="screen" page="component://ofbizDemo/widget/OfbizDemoScreens.xml#FindOfbizDemo"/>
+    <view-map name="FindOfbizNewDemo" type="screen" page="component://ofbizDemo/widget/OfbizDemoScreens.xml#FindOfbizNewDemo"/>
 
 </site-conf>

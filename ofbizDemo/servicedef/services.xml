@@ -31,7 +31,7 @@ under the License.
         <override name="comments" optional="true"/>
     </service>
 
-    <service name="createOfbizDemo" default-entity-name="OfbizDemoNew"  engine="entity-auto" invoke="create" auth="true">
+    <service name="createOfbizNewDemo" default-entity-name="OfbizDemoNew"  engine="entity-auto" invoke="create" auth="true">
         <description> Create an Ofbiz Demo record</description>
         <auto-attributes include="pk" mode="OUT" optional="false"/>
         <auto-attributes include="nonpk" mode="IN" optional="false"/>
