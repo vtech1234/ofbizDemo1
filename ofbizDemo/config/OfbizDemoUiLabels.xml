@@ -51,6 +51,9 @@ under the License.
     <property key="OfbizDemoId">
         <value xml:lang="en_GB">OFBiz Demo Id</value>
     </property>
+    <property key="OfbizDemoNewId">
+        <value xml:lang="en_GB">OFBiz Demo Id</value>
+    </property>
     <property key="OfbizDemoLastName">
         <value xml:lang="en_GB">Last Name</value>
     </property>
