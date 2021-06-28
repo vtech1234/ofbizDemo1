@@ -59,5 +59,15 @@ under the License.
         </relation>
     </entity>
 
+    <entity entity-name="OfbizTest" pachage-name="org.apache.ofbiz.ofbizdemo" title="OfbizDemo Test Entity">
+        <field name="ofbizDemoId" type="id"><description>primary sequenced ID</description></field>
+        <field name="ofbizDemoTypeId" type="id"></field>
+        <field name="firstname" type="name" ></field>
+        <prim-key field="ofbizDemeId"/>
+        <relation type="one" fk-name="ODEM_OD_TYPE_ID" rel-entity-name="OfbizDemoType">
+            <key-map field-name="ofbizDemoTypeId"/>
+        </relation>
+    </entity>
+
 
 </entitymodel>
